@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>GEORGE-WIN8</Machine>
+    <WindowsUser>george</WindowsUser>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\workspace\VS2012\ProgrammingWindows6\Multiplayer Tic Tac Toe\Multiplayer Tic Tac Toe\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\workspace\VS2012\ProgrammingWindows6\Multiplayer Tic Tac Toe\Multiplayer Tic Tac Toe\bin\Release\Multiplayer Tic Tac Toe.exe">
+      <PackagePath>Multiplayer Tic Tac Toe.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\workspace\VS2012\ProgrammingWindows6\Multiplayer Tic Tac Toe\Multiplayer Tic Tac Toe\bin\Release\Multiplayer Tic Tac Toe.pdb">
+      <PackagePath>Multiplayer Tic Tac Toe.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\workspace\VS2012\ProgrammingWindows6\Multiplayer Tic Tac Toe\Multiplayer Tic Tac Toe\Assets\TicTacToeLogo.png">
+      <PackagePath>Assets\TicTacToeLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\workspace\VS2012\ProgrammingWindows6\Multiplayer Tic Tac Toe\Multiplayer Tic Tac Toe\Assets\TicTacToeSmallLogo.png">
+      <PackagePath>Assets\TicTacToeSmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\workspace\VS2012\ProgrammingWindows6\Multiplayer Tic Tac Toe\Multiplayer Tic Tac Toe\Assets\TicTacToeSplashScreen.png">
+      <PackagePath>Assets\TicTacToeSplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\workspace\VS2012\ProgrammingWindows6\Multiplayer Tic Tac Toe\Multiplayer Tic Tac Toe\Assets\TicTacToeStoreLogo.png">
+      <PackagePath>Assets\TicTacToeStoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\workspace\VS2012\ProgrammingWindows6\Multiplayer Tic Tac Toe\Multiplayer Tic Tac Toe\bin\Release\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\workspace\VS2012\ProgrammingWindows6\Multiplayer Tic Tac Toe\Multiplayer Tic Tac Toe\bin\Release\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\workspace\VS2012\ProgrammingWindows6\Multiplayer Tic Tac Toe\Multiplayer Tic Tac Toe\bin\Release\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\workspace\VS2012\ProgrammingWindows6\Multiplayer Tic Tac Toe\Multiplayer Tic Tac Toe\bin\Release\NewGameDialog.xaml">
+      <PackagePath>NewGameDialog.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\workspace\VS2012\ProgrammingWindows6\Multiplayer Tic Tac Toe\Multiplayer Tic Tac Toe\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

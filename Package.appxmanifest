@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="2317GeorgePopoiu.TicTacToeMultiplayer" Publisher="CN=6F1F947F-422A-472F-BF56-7F7604164368" Version="1.0.0.12" />
+  <Properties>
+    <DisplayName>Tic Tac Toe Multiplayer</DisplayName>
+    <PublisherDisplayName>George Popoiu</PublisherDisplayName>
+    <Logo>Assets\TicTacToeStoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Multiplayer_Tic_Tac_Toe.App">
+      <VisualElements DisplayName="Tic Tac Toe Multiplayer" Logo="Assets\TicTacToeLogo.png" SmallLogo="Assets\TicTacToeSmallLogo.png" Description="Multiplayer Tic Tac Toe" ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="Assets\TicTacToeSplashScreen.png" />
+        <InitialRotationPreference>
+          <Rotation Preference="portrait" />
+          <Rotation Preference="landscape" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+</Package>

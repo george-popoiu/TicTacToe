@@ -1,0 +1,47 @@
+﻿<UserControl
+    x:Class="Multiplayer_Tic_Tac_Toe.NewGameDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Multiplayer_Tic_Tac_Toe"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="400">
+    
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        
+        <Grid.Resources>
+            <Style TargetType="TextBlock">
+                <Setter Property="FontSize" Value="18"/>
+                <Setter Property="VerticalAlignment" Value="Center"/>
+                <Setter Property="Margin" Value="0 0 7 0"/>
+            </Style>
+            <Style TargetType="TextBox">
+                <Setter Property="MinWidth" Value="150"/>
+            </Style>
+        </Grid.Resources>
+        
+        <StackPanel Margin="10">
+            
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Player 1 : "/>
+                <TextBox Name="player1Text"/>
+            </StackPanel>
+            
+            <StackPanel Orientation="Horizontal" Margin="0 10 0 0">
+                <TextBlock Text="Player 2 : "/>
+                <TextBox Name="player2Text"/>
+            </StackPanel>
+            
+            <TextBlock FontSize="14" Foreground="Red" Text="Enter different names for both players"
+                       Visibility="Collapsed" Name="errorText" Margin="5"/>
+            
+            <Button Name="playButton" Content="Play"
+                    HorizontalAlignment="Center" Margin="0 10 0 0"/>
+            
+        </StackPanel>
+
+    </Grid>
+</UserControl>
+
